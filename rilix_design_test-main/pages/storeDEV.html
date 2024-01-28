@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Indiamaris">
+
+    <title>Rilix Admin 2 - Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://unpkg.com/gijgo@1.9.14/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <!-- Custom fonts for this template-->
+    <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <link href="../css/rilix.css" rel="stylesheet" type="text/css">
+    <!-- tetando datakepperr -->
+    <link href="/path/to/css/hotel-datepicker.min.css" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="../css/sb-admin-2.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="../css/rilix.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar On screen-->
+
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion hidInPhone" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class=" mt-4 sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+
+                    <img src="../img/rilix-logo-white.svg" alt="rilix icon" class='rilixIcon'>
+
+                </div>
+
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item ">
+                <a class="nav-link" href="../index.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Mind your business
+            </div>
+
+            <!-- Nav Item - Pages Collapse Menu -->
+
+            <li class="nav-item">
+
+
+                <a class="nav-link" href="../pages/licences.html">
+                    <i class="fas fa-solid fa-id-card"></i>
+                    <span> Licences</span></a>
+
+
+            </li>
+
+            <li class="nav-item">
+
+
+                <a class="nav-link" href="../pages/coasters.html">
+                    <i class="fas fa-car-alt"></i>
+                    <span> Coasters</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/wallet.html">
+                    <i class="fas fa-wallet"></i>
+                    <span>Wallet</span></a>
+            </li>
+            <!-- Nav Item - Utilities Collapse Menu -->
+
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Invest in your business
+                < /div>
+                    <li class="nav-item fs-1">
+                        <a class="nav-link" href="../pages/store.html">
+                            <i class="fas fa-cart-plus fs-1"></i>
+                            <span class='fs-1'>Store</span></a>
+                    </li>
+                    <!-- Nav Item - Pages Collapse Menu -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/news.html">
+                            <i class="fas fa-rss"></i>
+                            <span>News</span></a>
+                    </li>
+                    <!-- <li class="nav-item">
+                <a class="nav-link" href="./pages/newsB.html">
+                    <i class="fas fa-rss"></i>
+                    <span>News</span></a>
+            </li> -->
+
+                    <!-- Nav Item - Tables -->
+
+                    <!-- divider -->
+                    <hr class="sidebar-divider d-none d-md-block">
+                    <!-- Sidebar Toggler (Sidebar) -->
+                    <div class="text-center d-none d-md-inline md-4 ">
+                        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+                    </div>
+
+                    <!-- Sidebar Message -->
+                    <div class="sidebar-card d-none d-lg-flex w-75 hidInPhone ">
+                        <img class="sidebar-card-illustration mb-3 mt- " src="../img/undraw_rocket.svg" alt="...">
+                        <p class="text-center mb-2 hidInPhone "><strong>Coins are aways on Sale</strong> The more you
+                            buy, the
+                            more
+                            discount
+                            you get! Visit our store and shop like a profit pro!</p>
+                        <a class=" btn btn-success btn-sm" href="../pages/sale.html">
+                            Buy More, Pay Less!</a>
+                    </div>
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- sidebar on celphone -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column justify-content-center  ">
+            <div class='forPhoneIn'>
+                <div class="bd-example ">
+                    <div class="pos-f-t  ">
+                        <!-- aqui temos o botaozinho de navbar lindissimo -->
+                        <nav class="navbar bg-primary d-flex  justify-content-between align-items-center "
+                            style='height: 50px'>
+                            <p class='text-white bg-primary'><img style='height: 35px' src="../img/rilix-logo-white.svg"
+                                    alt=""></p>
+                            <button class="navbar-toggler border-0 text-white pb-3" type="button" data-toggle="collapse"
+                                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                                aria-expanded="true" aria-label="Toggle navigation ">
+                                <i class="fas fa-solid fa-bars"></i>
+                            </button>
+                        </nav>
+
+                        <!-- aqui acaba o botaozinho -->
+                        <div class="collapse show " id="navbarToggleExternalContent">
+                            <div class="bg-primary pl-2">
+                                <ul class='navbar-nav align-items-start pl-2 table table-hover'>
+
+
+                                    <li class="nav-item">
+
+
+                                        <a class="nav-link text-white" href="../pages/licences.html">
+                                            <i class="fas fa-solid fa-id-card "></i>
+                                            <span> Dashboard</span></a>
+
+
+                                    </li>
+
+                                    <li class="nav-item">
+
+
+                                        <a class="nav-link text-white" href="../pages/store.html">
+                                            <i class="fas fa-cart-plus fs-1 text-white"></i>
+                                            <span> Store</span></a>
+
+
+                                    </li>
+
+
+
+
+
+
+                                    <li class="nav-item">
+
+
+                                        <a class="nav-link text-white" href="../pages/licences.html">
+                                            <i class="fas fa-solid fa-id-card "></i>
+                                            <span> Licences</span></a>
+
+
+                                    </li>
+
+                                    <li class="nav-item">
+
+
+                                        <a class="nav-link text-white" href="../pages/coasters.html">
+                                            <i class="fas fa-car-alt 
+                                            "></i>
+                                            <span> Coasters</span></a>
+
+
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="../pages/wallet.html">
+                                            <i class="fas fa-wallet"></i>
+                                            <span>Wallet</span></a>
+
+
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">
+                                            <i class="fas fa-solid fa-user"></i>
+                                            <span>Profile</span></a>
+
+
+                                    </li>
+
+
+
+
+                                </ul>
+
+
+
+
+
+                                <div class="col rounded bg-transparent">
+                                    <div class="row d-flex align-items-center justify-content-between">
+
+                                        <div class=" pl-2 text-white">
+                                        </div>
+
+
+                                        <div class="nav-item dropdown no-arrow text-right text-white">
+                                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span
+                                                    class="d-none d-lg-inline   d-sm-inline  pr-2 hidInPhone text-white">Douglas
+                                                    McGee
+                                                </span>
+                                                <img class=" img-profile rounded-circle" src="../img/undraw_profile.svg"
+                                                    style='height: 35px;'>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Main Content -->
+
+            <!-- cataaqui -->
+            <!-- Topbar -->
+
+            <!-- End of Topbar -->
+            <!-- onscreaming -->
+
+            <!-- main content -->
+            <div id="content">
+                <div class="container-fluid">
+                    <div class='row justify-content-between  m-2 hidInPhone'>
+                        <div>
+                            <p class='gray m-2 pr-2'>My Licences</p>
+                        </div>
+
+                        <div class="row d-flex justify-content-end">
+                            <div class="nav-item dropdown no-arrow text-right text-white">
+                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="d-none d-lg-inline  d-sm-inline  pr-2 hidInPhone text-gray-800">Douglas
+                                        McGee
+                                    </span>
+
+                                </a>
+
+                                <!-- Dropdown - User Information -->
+                                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                    aria-labelledby="userDropdown">
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                        Profile
+                                    </a>
+
+
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                        <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray"></i>
+                                        Logout
+                                    </a>
+                                </div>
+
+                            </div>
+                            <img class=" img-profile rounded-circle" src="../img/undraw_profile.svg"
+                                style='height: 35px;'>
+                        </div>
+                    </div>
+
+
+                    <div class="search d-flex justify-content-between pt-1 ">
+
+                        <div class=' title'>
+                            <!-- <h6 class="text-x text-left font-weight-bold text-success text-uppercase " />
+                            My Licences 2024&nbsp;</h6> -->
+                        </div>
+
+                        <div class=' icon  d-flex justify-content-around'>
+                            <div class='search'>
+
+                                <div class="input-group " style='height: 35px;'>
+
+                                    <input style='height: 25px; width: 250px;' type="text"
+                                        class="form-control bg-light border-1" placeholder="Search for licence..."
+                                        aria-label="Search" aria-describedby="basic-addon2">
+                                </div>
+
+                            </div>
+                            <div class="icon ml-2 mr-2">
+                                <i class=" text-primary fas fa-calendar-alt "></i>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="  col-xl-3 col-lg-6  col-md-12">
+                            <div class="card mb-4 rounded-3 shadow-sm">
+                                <div class="card-header py-3">
+                                    <h4 class="my-0 fw-normal"> Starter</h4>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title pricing-card-title">R$400,00 </p>
+
+
+                                        <small class="text-body-secondary fw-light">12.750 <i
+                                                class=" text-warning h-100 fas fa-coins"></i></small>
+                                    </h1>
+                                    <ul class="list-unstyled mt-2 mb-4">
+                                        <li>150 coins for free!</li>
+                                        <li>Equivalente a 250 consumos.</li>
+                                        <br>
+                                        <li>Its 2% cheaper buyng here!</li>
+
+                                    </ul>
+                                    <button type="button" class="w-100 btn btn-lg btn-primary "> <a class='text-white'
+                                            href="./checkout.html">Buy with
+                                            discount</a> </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="  col-xl-3 col-lg-6  col-md-12">
+                            <div class="card mb-4 rounded-3 shadow-sm">
+                                <div class="card-header py-3">
+                                    <h4 class="my-0 fw-normal"> Basic</h4>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title pricing-card-title">R$775,00
+
+                                        <small class="text-body-secondary fw-light"></p>25.500 <i
+                                                class=" text-warning h-100 fas fa-coins"></i></small>
+                                    </h1>
+                                    <ul class="list-unstyled mt-2 mb-4">
+                                        <li>350 coins for free!</li>
+                                        <li>Equivalente a 500 consumos.</li>
+                                        <br>
+
+                                        <li>Its 2% cheaper buyng here!</li>
+
+                                    </ul>
+                                    <button type="button" class="w-100 btn btn-lg btn-primary "> <a class='text-white'
+                                            href="./checkout.html">Buy with
+                                            discount</a> </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="   col-xl-3 col-lg-6  col-md-12">
+                            <div class="card mb-4 rounded-3 shadow-sm">
+                                <div class="card-header py-3">
+                                    <h4 class="my-0 fw-normal"> Basic Silver</h4>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title pricing-card-title">R$1.500,00<small
+                                            class="text-body-secondary fw-light"></p>
+                                            51.000 coins</small></h1>
+                                    <ul class="list-unstyled mt-2 mb-4">
+                                        <li>350 coins for free!</li>
+                                        <li>Equivalente a 500 consumos.</li>
+                                        <br>
+                                        <li>Its 2% cheaper buyng here!</li>
+                                    </ul>
+                                    <button type="button" class="w-100 btn btn-lg btn-primary "> <a class='text-white'
+                                            href="./checkout.html">Buy with
+                                            discount</a> </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="  col-xl-3 col-lg-6  col-md-12">
+                            <div class="card mb-4 rounded-3 shadow-sm">
+                                <div class="card-header py-3">
+                                    <h4 class="my-0 fw-normal"> Basic Golden</h4>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title pricing-card-title">R$3.625,00
+
+                                        <small class="text-body-secondary fw-light"></p>
+                                            127.500 <i class=" text-warning h-100 fas fa-coins"></i></small>
+                                    </h1>
+                                    <ul class="list-unstyled mt-2 mb-4">
+                                        <li>350 coins for free!</li>
+                                        <li>Equivalente a 500 consumos.</li>
+                                        <br>
+                                        <li>Its 2% cheaper buyng here!</li>
+                                    </ul>
+                                    <button type="button" class="w-100 btn btn-lg btn-primary "> <a class='text-white'
+                                            href="./checkout.html">Buy with
+                                            discount</a> </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="  col-xl-3 col-lg-6  col-md-12">
+                            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                                <div class="card-header py-3 text-bg-primary border-primary">
+                                    <h4 class="my-0 fw-normal">
+                                        Pro</h4>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title pricing-card-title">R$ 7.000,00</p><small
+                                            class="text-body-secondary fw-light"></p>
+                                            255.000 <i class=" text-warning h-100 fas fa-coins"></i></small></h1>
+                                    <ul class="list-unstyled mt-2 mb-4">
+                                        <li>350 coins for free!</li>
+                                        <li>Equivalente a 500 consumos.</li>
+                                        <br>
+
+                                        <li>Its 2% cheaper buyng here!</li>
+                                    </ul>
+                                    <button type="button" class="w-100 btn btn-lg btn-primary">Buy with
+                                        discount</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="  col-xl-3 col-lg-6  col-md-12">
+                            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                                <div class="card-header py-3 text-bg-primary border-primary">
+                                    <h4 class="my-0 fw-normal">
+                                        Pro Silver </h4>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title pricing-card-title">R$13.000,00<small
+                                            class="text-body-secondary fw-light"></p>
+                                            </p>510.000 <i class=" text-warning h-100 fas fa-coins"></i></small>
+                                    </h1>
+                                    <ul class="list-unstyled mt-2 mb-4">
+                                        <li>350 coins for free!</li>
+                                        <li>Equivalente a 500 consumos.</li>
+                                        <br>
+
+                                        <li>Its 2% cheaper buyng here!</li>
+                                    </ul>
+                                    <button type="button" class="w-100 btn btn-lg btn-primary">Buy with
+                                        discount</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="  col-xl-3 col-lg-6  col-md-12">
+                            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                                <div class="card-header py-3 text-bg-primary border-primary">
+                                    <h4 class="my-0 fw-normal">
+                                        Pro Golden </h4>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title pricing-card-title">R$24.000,00</p><small
+                                            class="text-body-secondary fw-light"></p>
+                                            1.020.000 <i class=" text-warning h-100 fas fa-coins"></i></small></h1>
+                                    <ul class="list-unstyled mt-2 mb-4">
+                                        <li>350 coins for free!</li>
+                                        <li>Equivalente a 20.000 consumos.
+
+                                        </li>
+
+                                        <li>Its 2% cheaper buyng here!</li>
+                                    </ul>
+                                    <br>
+                                    <button type="button" class="w-100 btn btn-lg btn-primary">Buy with
+                                        discount</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="  col-xl-3 col-lg-6  col-md-12">
+                            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                                <div class="card-header py-3 text-bg-primary border-primary">
+                                    <h4 class="my-0 fw-normal">
+                                        No Limits </h4>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title pricing-card-title">R$37.200,00</p><small
+                                            class="text-body-secondary fw-light"></p> <i
+                                                class=" text-warning h-100 fas fa-coins"></i>
+                                            <i class=" text-warning h-100 fas fa-coins"></i>
+                                            <i class=" text-warning h-100 fas fa-coins"></i></small></h1>
+                                    <ul class="list-unstyled mt-2 mb-4">
+                                        <li>350 coins for free!</li>
+                                        <li>Equivalente a 500 consumos.</li>
+                                        <br>
+
+                                        <li>Its 2% cheaper buyng here!</li>
+                                    </ul>
+                                    <button type="button" class="w-100 btn btn-lg btn-primary">Buy with
+                                        discount</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                    crossorigin="anonymous"></script>
+</body>

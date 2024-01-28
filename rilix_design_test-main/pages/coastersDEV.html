@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Indiamaris">
+
+    <title>Rilix Admin 2 - Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://unpkg.com/gijgo@1.9.14/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- tetando datakepperr -->
+    <link href="/path/to/css/hotel-datepicker.min.css" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js" type="text/javascript"></script>
+
+    <link href="./css/rilix.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar On screen-->
+
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion hidInPhone" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class=" mt-4 sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+
+                    <img src="./img/rilix-logo-white.svg" alt="rilix icon" class='rilixIcon'>
+
+                </div>
+
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item ">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Mind your business
+            </div>
+
+            <!-- Nav Item - Pages Collapse Menu -->
+
+            <li class="nav-item">
+
+
+                <a class="nav-link" href="./pages/licences.html">
+                    <i class="fas fa-solid fa-id-card"></i>
+                    <span> Licences</span></a>
+
+
+            </li>
+
+            <li class="nav-item">
+
+
+                <a class="nav-link" href="./pages/coasters.html">
+                    <i class="fas fa-car-alt"></i>
+                    <span> Coasters</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./pages/wallet.html">
+                    <i class="fas fa-wallet"></i>
+                    <span>Wallet</span></a>
+            </li>
+            <!-- Nav Item - Utilities Collapse Menu -->
+
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Invest in your business
+            </div>
+            <li class="nav-item fs-1">
+                <a class="nav-link" href="./pages/store.html">
+                    <i class="fas fa-cart-plus fs-1"></i>
+                    <span class='fs-1'>Store</span></a>
+            </li>
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="./pages/news.html">
+                    <i class="fas fa-rss"></i>
+                    <span>News</span></a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="./pages/newsB.html">
+                    <i class="fas fa-rss"></i>
+                    <span>News</span></a>
+            </li> -->
+
+            <!-- Nav Item - Tables -->
+
+            <!-- divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline md-4 ">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+            <!-- Sidebar Message -->
+            <div class="sidebar-card d-none d-lg-flex w-75 hidInPhone ">
+                <img class="sidebar-card-illustration mb-3 mt- " src="img/undraw_rocket.svg" alt="...">
+                <p class="text-center mb-2 hidInPhone "><strong>Coins are aways on Sale</strong> The more you buy, the
+                    more
+                    discount
+                    you get! Visit our store and shop like a profit pro!</p>
+                <a class=" btn btn-success btn-sm" href="./pages/sale.html">
+                    Buy More, Pay Less!</a>
+            </div>
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- sidebar on celphone -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column justify-content-center  ">
+            <div class='forPhoneIn'>
+                <div class="bd-example ">
+                    <div class="pos-f-t  ">
+                        <!-- aqui temos o botaozinho de navbar lindissimo -->
+                        <nav class="navbar bg-primary d-flex  justify-content-between align-items-center "
+                            style='height: 50px'>
+                            <p class='text-white bg-primary'><img style='height: 35px' src="./img/rilix-logo-white.svg"
+                                    alt=""></p>
+                            <button class="navbar-toggler border-0 text-white pb-3" type="button" data-toggle="collapse"
+                                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                                aria-expanded="true" aria-label="Toggle navigation ">
+                                <i class="fas fa-solid fa-bars"></i>
+                            </button>
+                        </nav>
+
+                        <!-- aqui acaba o botaozinho -->
+                        <div class="collapse show " id="navbarToggleExternalContent">
+                            <div class="bg-primary pl-2">
+                                <ul class='navbar-nav align-items-start pl-2 table table-hover'>
+
+
+                                    <li class="nav-item">
+
+
+                                        <a class="nav-link text-white" href="./pages/licences.html">
+                                            <i class="fas fa-solid fa-id-card "></i>
+                                            <span> Dashboard</span></a>
+
+
+                                    </li>
+
+                                    <li class="nav-item">
+
+
+                                        <a class="nav-link text-white" href="./pages/store.html">
+                                            <i class="fas fa-cart-plus fs-1 text-white"></i>
+                                            <span> Store</span></a>
+
+
+                                    </li>
+
+
+
+
+
+
+                                    <li class="nav-item">
+
+
+                                        <a class="nav-link text-white" href="./pages/licences.html">
+                                            <i class="fas fa-solid fa-id-card "></i>
+                                            <span> Licences</span></a>
+
+
+                                    </li>
+
+                                    <li class="nav-item">
+
+
+                                        <a class="nav-link text-white" href="./pages/coasters.html">
+                                            <i class="fas fa-car-alt 
+                                            "></i>
+                                            <span> Coasters</span></a>
+
+
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="./pages/wallet.html">
+                                            <i class="fas fa-wallet"></i>
+                                            <span>Wallet</span></a>
+
+
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">
+                                            <i class="fas fa-solid fa-user"></i>
+                                            <span>Profile</span></a>
+
+
+                                    </li>
+
+
+
+
+                                </ul>
+                                <!-- Page Heading -->
+
+                                <!-- <span class='w-100' style='background-color: aliceblue'> </span> -->
+
+
+                                <div class="col rounded bg-transparent">
+                                    <div class="row d-flex align-items-center justify-content-between">
+
+                                        <div class=" pl-2 text-white">
+                                        </div>
+
+
+
+
+
+
+                                        <div class="nav-item dropdown no-arrow text-right text-white">
+                                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span
+                                                    class="d-none d-lg-inline   d-sm-inline  pr-2 hidInPhone text-white">Douglas
+                                                    McGee
+                                                </span>
+                                                <img class=" img-profile rounded-circle" src="img/undraw_profile.svg"
+                                                    style='height: 35px;'>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+                    <div class='row justify-content-between  m-2 hidInPhone'>
+                        <div>
+                            <p class='gray mt-2'>DanshBoard</p>
+                        </div>
+
+                        <div class="row d-flex justify-content-end">
+                            <div class="nav-item dropdown no-arrow text-right text-white">
+                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="d-none d-lg-inline  d-sm-inline  pr-2 hidInPhone text-gray-800">Douglas
+                                        McGee
+                                    </span>
+
+                                </a>
+
+                                <!-- Dropdown - User Information -->
+                                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                    aria-labelledby="userDropdown">
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                        Profile
+                                    </a>
+
+
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                        <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray"></i>
+                                        Logout
+                                    </a>
+                                </div>
+
+                            </div>
+                            <img class=" img-profile rounded-circle" src="img/undraw_profile.svg" style='height: 35px;'>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Content Row -->
+                    <div class="row">
+
+
+
+                        <!-- Customers in my pretty Card Example -->
+                        <div class="col-xl-4 col-lg-4 col-md-12  col-sm-12 mb-4 mt-2">
+                            <div class="card border-left-info shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                                                Saldo Tickets atual
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50
+                                                        tickets</div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-clipboard-list fa-2x text-gray-300 hidInPhone"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- customer Card Example -->
+                        <div class="col-xl-4 col-lg-4 col-md-12  col-sm-12 mb-4 mt-2">
+                            <div class="card border-left-info shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                                                Total 86 Consumers January 2024</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">Total 90 rides </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-dollar-sign fa-2x text-gray-300 hidInPhone"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- My tickets Card Example -->
+                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 mb-4 mt-2">
+                            <div class="card border-left-info shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                                                My Tickets</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-ticket-alt fa-2x text-gray-300 hidInPhone"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Content Row -->
+
+                    <div class="row">
+
+                        <!-- Area Chart -->
+                        <div class="col-xl-8 col-lg-12 ">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">My Wallet in 2024</h6>
+                                    <div class="dropdown no-arrow">
+                                        <a class="dropdown" href="#" role="button" id="dropdownMenuLink"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-calendar-alt "></i>
+
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                            aria-labelledby="dropdownMenuLink">
+                                            <div class="dropdown-header">Dropdown Header:</div>
+
+
+                                            <div>
+                                                <div class='datapicker'>
+                                                    <div class="container fs-2">
+                                                        Start Date: <input id="startDate" width="150" />
+                                                        End Date: <input id="endDate" width="150" />
+                                                    </div>
+                                                    <script>
+                                                        var today = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
+                                                        $('#startDate').datepicker({
+                                                            uiLibrary: 'bootstrap4',
+                                                            iconsLibrary: 'fontawesome',
+                                                            minDate: today,
+                                                            maxDate: function () {
+                                                                return $('#endDate').val();
+                                                            }
+                                                        });
+                                                        $('#endDate').datepicker({
+                                                            uiLibrary: 'bootstrap4',
+                                                            iconsLibrary: 'fontawesome',
+                                                            minDate: function () {
+                                                                return $('#startDate').val();
+                                                            }
+                                                        });
+                                                    </script>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body" style='height: 500px' ;>
+                                    <div class="h-100">
+                                        <canvas id="myAreaChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pie Chart -->
+                        <div class="col-xl-4 col-lg-5 col-lg-12">
+                            <div class="card shadow mb-3">
+                                <!-- Card Header - Dropdown -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Scenarios January</h6>
+                                    <div class="dropdown no-arrow">
+                                        <a class="dropdown" href="#" role="button" id="dropdownMenuLink"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-calendar-alt "></i>
+
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                            aria-labelledby="dropdownMenuLink">
+                                            <div class="dropdown-header">Dropdown Header:</div>
+
+
+                                            <div>
+                                                <div class='datapicker'>
+                                                    <div class="container fs-2">
+                                                        Start Date: <input id="startDate" width="150" />
+                                                        End Date: <input id="endDate" width="150" />
+                                                    </div>
+                                                    <script>
+                                                        var today = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
+                                                        $('#startDate').datepicker({
+                                                            uiLibrary: 'bootstrap4',
+                                                            iconsLibrary: 'fontawesome',
+                                                            minDate: today,
+                                                            maxDate: function () {
+                                                                return $('#endDate').val();
+                                                            }
+                                                        });
+                                                        $('#endDate').datepicker({
+                                                            uiLibrary: 'bootstrap4',
+                                                            iconsLibrary: 'fontawesome',
+                                                            minDate: function () {
+                                                                return $('#startDate').val();
+                                                            }
+                                                        });
+                                                    </script>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body" style='height: 500px' ;>
+                                    <div class="h-75">
+                                        <canvas id="myPieChart"></canvas>
+                                    </div>
+                                    <div class=" text-center small mt-5">
+                                        <span class="mr-1 h-25">
+                                            <i class="fas fa-circle text-primary"></i> Chihuahua Contrataca*
+                                        </span>
+                                        <span class="mr-1">
+                                            <i class="fas fa-circle text-success"></i> Perros Revolution*
+                                        </span>
+                                        <span class="mr-1">
+                                            <i class="fas fa-circle text-info"></i> A dino eating you*
+                                        </span>
+
+                                    </div>
+                                    <div class="text-center small mt-2">
+                                        * Top 3 most played scenarios
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content Row -->
+                    <div class="row">
+
+                        <div class="col-xxl-8 col-xl-8 col-lg-12 col-md-12 hidInPhone">
+                            <div class="card shadow">
+                                <!-- Card Header - Dropdown -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Consume in 2024</h6>
+                                    <div class="dropdown no-arrow">
+                                        <a class="dropdown" href="#" role="button" id="dropdownMenuLink"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-calendar-alt "></i>
+
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                            aria-labelledby="dropdownMenuLink">
+                                            <div class="dropdown-header">Dropdown Header:</div>
+
+
+                                            <div>
+                                                <div class='datapicker'>
+                                                    <div class="container fs-2">
+                                                        Start Date: <input id="startDate" width="150" />
+                                                        End Date: <input id="endDate" width="150" />
+                                                    </div>
+                                                    <script>
+                                                        var today = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
+                                                        $('#startDate').datepicker({
+                                                            uiLibrary: 'bootstrap4',
+                                                            iconsLibrary: 'fontawesome',
+                                                            minDate: today,
+                                                            maxDate: function () {
+                                                                return $('#endDate').val();
+                                                            }
+                                                        });
+                                                        $('#endDate').datepicker({
+                                                            uiLibrary: 'bootstrap4',
+                                                            iconsLibrary: 'fontawesome',
+                                                            minDate: function () {
+                                                                return $('#startDate').val();
+                                                            }
+                                                        });
+                                                    </script>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body" style='height: 500px' ;>
+                                    <div class="h-100">
+                                        <canvas h-100 id="consumers"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Content Column -->
+                        <div class="col-xxl-4 col-xl-4 col-lg-12 col-md-12  overflow-auto">
+
+                            <!-- Project Card Example -->
+                            <div class="card shadow h-100 overflow-auto   ">
+
+                                <!-- Card Header - Dropdown -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Top Hight and Low Active Licences
+                                    </h6>
+                                    <div class="dropdown no-arrow">
+                                        <a class="dropdown" href="#" role="button" id="dropdownMenuLink"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-calendar-alt "></i>
+
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                            aria-labelledby="dropdownMenuLink">
+                                            <div class="dropdown-header">Dropdown Header:</div>
+
+
+                                            <div>
+                                                <div class='datapicker'>
+                                                    <div class="container fs-2">
+                                                        Start Date: <input id="startDate" width="150" />
+                                                        End Date: <input id="endDate" width="150" />
+                                                    </div>
+                                                    <script>
+                                                        var today = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
+                                                        $('#startDate').datepicker({
+                                                            uiLibrary: 'bootstrap4',
+                                                            iconsLibrary: 'fontawesome',
+                                                            minDate: today,
+                                                            maxDate: function () {
+                                                                return $('#endDate').val();
+                                                            }
+                                                        });
+                                                        $('#endDate').datepicker({
+                                                            uiLibrary: 'bootstrap4',
+                                                            iconsLibrary: 'fontawesome',
+                                                            minDate: function () {
+                                                                return $('#startDate').val();
+                                                            }
+                                                        });
+                                                    </script>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="card-body p-4 mr-4" style="height: 500px;">
+
+                                    <h4 class="small font-weight-bold">Licence X <span class="float-right">119
+                                            rides</span>
+                                    </h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%"
+                                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold">Licence Y <span class="float-right">80
+                                            rides</span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar  bg-info" role="progressbar" style="width: 80%"
+                                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="119"></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold">Licence B <span class="float-right">60
+                                            rides</span>
+                                    </h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%"
+                                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="119"></div>
+                                    </div>
+
+                                    <h4 class="small font-weight-bold">Licence blablubli <span class="float-right"> 30
+                                            rides
+                                        </span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 20%"
+                                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="110"></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold">Licence Z <span class="float-right"> 20 rides
+                                        </span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 10%"
+                                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="110"></div>
+                                    </div>
+
+                                    <h4 class="small font-weight-bold">Licence Z <span class="float-right"> 20 rides
+                                        </span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 10%"
+                                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="110"></div>
+                                    </div>
+
+                                    <h4 class="small font-weight-bold">Licence Z <span class="float-right"> 20 rides
+                                        </span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 10%"
+                                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="110"></div>
+                                    </div>
+
+
+                                    <h4 class="small font-weight-bold">Licence Z <span class="float-right"> 20 rides
+                                        </span>
+                                    </h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 10%"
+                                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="110"></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold">Licence Z <span class="float-right"> 20 rides
+                                        </span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 10%"
+                                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="110" mb-4></div>
+
+                                    </div>
+                                    <div style='height: 5px;'></div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+
+                    </div>
+                    <!-- /.container-fluid -->
+
+                </div>
+                <!-- End of Main Content -->
+
+                <!-- Footer -->
+                <footer class="sticky-footer bg-white">
+                    <div class="container my-auto">
+                        <div class="copyright text-center my-auto">
+                            <span> &copy;Rilix 2024</span>
+                        </div>
+                    </div>
+                </footer>
+                <!-- End of Footer -->
+            </div>
+        </div>
+        <!-- End of Content Wrapper -->
+        <!-- END OF sidebar on celphone -->
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>
+    <script src="./js/demo/demoniandia/consumers.js"></script>
+    <script src="/path/to/cdn/fecha.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js" type="text/javascript"></script>
+
+</body>
+
+</html>

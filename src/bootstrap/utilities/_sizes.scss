@@ -1,0 +1,21 @@
+$sizes: (
+    0: 0,
+    1: 0.5rem,
+    2: 1rem,
+    3: 1.5rem,
+    4: 2rem,
+);
+
+@each $key, $size in $sizes {
+    .size-w-#{$key} {
+        width: $size !important;
+    }
+    .size-h-#{$key} {
+        height: $size !important;
+    }
+    .size-#{$key} {
+        width: $size !important;
+        height: $size !important;
+    }
+}
+

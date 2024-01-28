@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Indiamaris">
+
+    <title>Rilix Admin 2 - Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://unpkg.com/gijgo@1.9.14/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <!-- Custom fonts for this template-->
+    <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/rilix.css" rel="stylesheet" type="text/css">
+    <link href="../css/carr.css" rel="stylesheet" type="text/css">
+    <!-- tetando datakepperr -->
+    <link href="/path/to/css/hotel-datepicker.min.css" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="../css/sb-admin-2.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js" type="text/javascript"></script>
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+        <!-- Page Wrapper -->
+
+        <!-- Sidebar On screen-->
+        <div class="hidInPhone">
+            <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion hidInPhone" id="accordionSidebar">
+
+                <!-- Sidebar - Brand -->
+                <a class=" mt-4 sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                    <div class="sidebar-brand-icon rotate-n-15">
+
+                        <img src="../img/rilix-logo-white.svg" alt="rilix icon" class='rilixIcon'>
+
+                    </div>
+
+                </a>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider my-0">
+
+                <!-- Nav Item - Dashboard -->
+                <li class="nav-item ">
+                    <a class="nav-link" href="../index.html">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Dashboard</span></a>
+                </li>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider">
+
+
+                <!-- Heading -->
+                <div class="sidebar-heading">
+                    Mind your business
+                </div>
+
+                <!-- Nav Item - Pages Collapse Menu -->
+
+                <li class="nav-item">
+
+
+                    <a class="nav-link" href="../pages/licences.html">
+                        <i class="fas fa-solid fa-id-card"></i>
+                        <span> Licences</span></a>
+
+
+                </li>
+
+                <li class="nav-item">
+
+
+                    <a class="nav-link" href="../pages/coasters.html">
+                        <i class="fas fa-car-alt"></i>
+                        <span> Coasters</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/wallet.html">
+                        <i class="fas fa-wallet"></i>
+                        <span>Wallet</span></a>
+                </li>
+                <!-- Nav Item - Utilities Collapse Menu -->
+
+
+                <!-- Divider -->
+                <hr class="sidebar-divider">
+                <!-- Heading -->
+                <div class="sidebar-heading">
+                    Invest in your business
+                </div>
+                <li class="nav-item fs-1">
+                    <a class="nav-link" href="../pages/store.html">
+                        <i class="fas fa-cart-plus fs-1"></i>
+                        <span class='fs-1'>Store</span></a>
+                </li>
+                <!-- Nav Item - Pages Collapse Menu -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/news.html">
+                        <i class="fas fa-rss"></i>
+                        <span>News</span></a>
+                </li>
+                <!-- <li class="nav-item">
+                <a class="nav-link" href="./pages/newsB.html">
+                    <i class="fas fa-rss"></i>
+                    <span>News</span></a>
+            </li> -->
+
+                <!-- Nav Item - Tables -->
+
+                <!-- divider -->
+                <hr class="sidebar-divider d-none d-md-block">
+                <!-- Sidebar Toggler (Sidebar) -->
+                <div class="text-center d-none d-md-inline md-4 ">
+                    <button class="rounded-circle border-0" id="sidebarToggle"></button>
+                </div>
+
+                <!-- Sidebar Message -->
+                <div class="sidebar-card d-none d-lg-flex w-75 hidInPhone ">
+                    <img class="sidebar-card-illustration mb-3 mt- " src="../img/undraw_rocket.svg" alt="...">
+                    <p class="text-center mb-2 hidInPhone "><strong>Coins are aways on Sale</strong> The more you buy,
+                        the
+                        more
+                        discount
+                        you get! Visit our store and shop like a profit pro!</p>
+                    <a class=" btn btn-success btn-sm" href="../pages/sale.html">
+                        Buy More, Pay Less!</a>
+                </div>
+
+            </ul>
+            <!-- End of Sidebar -->
+        </div>
+
+        <!-- sidebar on celphone -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column justify-content-center  ">
+            <div class='forPhoneIn'>
+                <div class="bd-example ">
+                    <div class="pos-f-t  ">
+                        <!-- aqui temos o botaozinho de navbar lindissimo -->
+                        <nav class="navbar bg-primary d-flex  justify-content-between align-items-center "
+                            style='height: 50px'>
+                            <p class='text-white bg-primary'><img style='height: 35px' src="../img/rilix-logo-white.svg"
+                                    alt=""></p>
+                            <button class="navbar-toggler border-0 text-white pb-3" type="button" data-toggle="collapse"
+                                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                                aria-expanded="true" aria-label="Toggle navigation ">
+                                <i class="fas fa-solid fa-bars"></i>
+                            </button>
+                        </nav>
+
+                        <!-- aqui acaba o botaozinho -->
+                        <div class="collapse show " id="navbarToggleExternalContent">
+                            <div class="bg-primary pl-2">
+                                <ul class='navbar-nav align-items-start pl-2 table table-hover'>
+
+
+                                    <li class="nav-item">
+
+
+                                        <a class="nav-link text-white" href="../pages/licences.html">
+                                            <i class="fas fa-solid fa-id-card "></i>
+                                            <span> Dashboard</span></a>
+
+
+                                    </li>
+
+                                    <li class="nav-item">
+
+
+                                        <a class="nav-link text-white" href="../pages/store.html">
+                                            <i class="fas fa-cart-plus fs-1 text-white"></i>
+                                            <span> Store</span></a>
+
+
+                                    </li>
+
+
+
+
+
+
+                                    <li class="nav-item">
+
+
+                                        <a class="nav-link text-white" href="../pages/licences.html">
+                                            <i class="fas fa-solid fa-id-card "></i>
+                                            <span> Licences</span></a>
+
+
+                                    </li>
+
+                                    <li class="nav-item">
+
+
+                                        <a class="nav-link text-white" href="../pages/coasters.html">
+                                            <i class="fas fa-car-alt 
+                                            "></i>
+                                            <span> Coasters</span></a>
+
+
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="../pages/wallet.html">
+                                            <i class="fas fa-wallet"></i>
+                                            <span>Wallet</span></a>
+
+
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">
+                                            <i class="fas fa-solid fa-user"></i>
+                                            <span>Profile</span></a>
+
+
+                                    </li>
+
+
+
+
+                                </ul>
+
+
+
+
+
+                                <div class="col rounded bg-transparent">
+                                    <div class="row d-flex align-items-center justify-content-between">
+
+                                        <div class=" pl-2 text-white">
+                                        </div>
+
+
+                                        <div class="nav-item dropdown no-arrow text-right text-white">
+                                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span
+                                                    class="d-none d-lg-inline   d-sm-inline  pr-2 hidInPhone text-white">Douglas
+                                                    McGee
+                                                </span>
+                                                <img class=" img-profile rounded-circle" src="../img/undraw_profile.svg"
+                                                    style='height: 35px;'>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Main Content -->
+
+            <div class='news-container  w-100 h-100   hidInPhone'>
+                <!-- news banner -->
+                <div class='h-25 banner'></div>
+
+                <div class='row justify-content-between  m-2  '>
+                    <div>
+                        <p class='gray m-2 pr-2'> Rilix News</p>
+                    </div>
+
+                    <div class="nav-item dropdown no-arrow text-right text-white">
+                        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="d-none d-lg-inline   d-sm-inline  pr-2  text-white">Douglas
+                                McGee
+                            </span>
+                            <img class=" img-profile rounded-circle" src="../img/undraw_profile.svg"
+                                style='height: 35px;'>
+                        </a>
+                    </div>
+                </div>
+
+                <div class=' allTheNews col col-12 hidInPhone'>
+
+                    <div class='row cardi m-4 h-25 '>
+
+                        <div class='col col-12 '>
+                            <div class=' overflow-hidden' style='height: 90px'>
+
+
+                                <h3 class='text-dark '> Better News</h3>
+                                <p> Rilix Coaster is like, totally mind-blowing, you know? It's this wild ride that
+                                    takes you on a rollercoaster of
+                                    emotions, literally! Picture this: you hop on, and suddenly, you're zooming
+                                    through loops and twists that make your
+                                    stomach do somersaults. It's like a crazy dance party for your adrenaline, with
+                                    unexpected drops that feel like falling
+                                    !</p>
+                            </div>
+                            <div class='author-card mt-2'>
+                                <div class='com_india'>
+                                    <img src="../img/rilix/aline.png" alt="" class='author-pic mr-2'>
+                                </div>
+                                <div class='author foother w-100'
+                                    style='display: flex; justify-content: space-between;'>
+                                    <div class='com_india'>
+                                        <p class='author-name mr-2'><strong>Aline Maria</strong> -Departamento de
+                                            Pessoas <br>10/12/2024</p>
+                                    </div>
+                                    <div class='mt-3 mr-5'>
+
+                                        <a class='text-primary' type="button" data-toggle="modal"
+                                            data-target="#meuModal"> Continue
+                                            Reading <i class="fas fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- item annoucement 1 -->
+                    <div class='row cardi m-4 h-25 '>
+
+
+                        <div class='col col-lg-12 '>
+
+                            <div class='col col-lg2 >
+
+                                <img src="../img/rilix/12.jpg" alt="">
+                                
+                    
+
+                                                    <h3 class=' text-dark '> Good Newsis</h3>
+                            <div class=' overflow-hidden' style='height: 90px'>
+
+
+
+                                <p> Rilix Coaster is like, totally mind-blowing, you know? It's this wild ride that
+                                    takes you on a rollercoaster of
+                                    emotions, literally! Picture this: you hop on, and suddenly, you're zooming
+                                    through loops and twists that make your
+                                    stomach do somersaults. It's like a crazy dance party for your adrenaline, with
+                                    unexpected drops that feel like falling
+                                    !</p>
+                            </div>
+                            <div class='author-card mt-2'>
+                                <div class='com_india'>
+                                    <img src="../img/rilix/emerson.png" alt="" class='author-pic mr-2'>
+                                </div>
+                                <div class='author foother w-100'
+                                    style='display: flex; justify-content: space-between;'>
+                                    <div class='com_india'>
+                                        <p class='author-name mr-2'><strong>Emerson</strong> -Departamento de Ciencia e
+                                            Tecnologia <br>10/12/2024</p>
+                                    </div>
+                                    <div class='mt-3 mr-5'>
+
+                                        <a class='text-primary' type="button" data-toggle="modal"
+                                            data-target="#meuModal"> Continue
+                                            Reading <i class="fas fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+
+                <!-- item modal prototipical -->
+
+                <div id="meuModal" class="modal fade w-100" role="dialog ">
+                    <div class="modal-dialog">
+
+                        <!-- Conteúdo do modal-->
+                        <div class="modal-content m-2">
+
+                            <!-- Cabeçalho do modal -->
+                            <div class="modal-header">
+                                <h4 class="modal-title text-primary">Update 3544 in Rilix Coaster</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+
+                            <!-- Corpo do modal -->
+                            <div class="modal-body">
+                                <div class=' w-100 '>
+
+                                    <img src="../img/rilix/13.jpg" alt="" class='w-100 rounded'>
+                                </div>
+                                <br>
+                                <p> <strong>Subtitulo Supimpa aqui!.</strong></p>
+
+                                <div class='author-card'>
+                                    <div class='com_india'>
+                                        <img src="../img/rilix/aline.png" alt="" class='author-pic mr-2'>
+                                    </div>
+                                    <div class='author foother w-100'
+                                        style='display: flex; justify-content: space-between;'>
+                                        <div class='com_india'>
+                                            <p class='author-name mr-2'><strong>Aline Mendes</strong> - Rilix Best
+                                                Friend<br>10/12/2024</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <!-- Rodapé do modal-->
+                                <div class=" text-center d.flex ">
+                                    <button type="button" class="btn btn-danger " data-dismiss="modal">Fechar</button>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item modal prototipical -->
+                    <div class="modal fade" id="ModalLongoNews" tabindex="-1" role="dialog"
+                        aria-labelledby="TituloModalLongoNews" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="TituloModalLongoNews">Update in Rilix Coaster
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item annoucement 3 -->
+
+
+
+
+                    <!-- Modal -->
+
+                </div>
+            </div>
+        </div>
+
+        <!-- End of Topbar -->
+
+
+
+
+        <!-- news for begginers hahaha for show in phone -->
+
+        <div class=' allTheNews col col-12 forPhoneIn'>
+
+            <div class='row cardi m-4 h-25 '>
+
+
+                <div class='col col-12 '>
+
+                    <div class=' overflow-hidden' style='height: 90px'>
+
+
+                        <h3 class='text-dark '> Better News</h3>
+                        <p> Rilix Coaster is like, totally mind-blowing, you know? It's this wild ride that
+                            takes you on a rollercoaster of
+                            emotions, literally! Picture this: you hop on, and suddenly, you're zooming
+                            through loops and twists that make your
+                            stomach do somersaults. It's like a crazy dance party for your adrenaline, with
+                            unexpected drops that feel like falling
+                            !</p>
+                    </div>
+                    <div class='author-card mt-2'>
+                        <div class='com_india'>
+                            <img src="../img/rilix/aline.png" alt="" class='author-pic mr-2'>
+                        </div>
+                        <div class='author foother w-100' style='display: flex; justify-content: space-between;'>
+                            <div class='com_india'>
+                                <p class='author-name mr-2'><strong>Aline Maria</strong> -Departamento de Pessoas
+                                    <br>10/12/2024
+                                </p>
+                            </div>
+                            <div class='mt-3 mr-5'>
+
+                                <a class='text-primary' type="button" data-toggle="modal" data-target="#meuModal">
+                                    Continue
+                                    Reading <i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- item annoucement 1 -->
+            <div class='row cardi m-4 h-25 '>
+
+                <div class='col col-12 '>
+                    <div class=' overflow-hidden' style='height: 90px'>
+
+
+                        <h3 class='text-dark '> Good News</h3>
+                        <p> Rilix Coaster is like, totally mind-blowing, you know? It's this wild ride that
+                            takes you on a rollercoaster of
+                            emotions, literally! Picture this: you hop on, and suddenly, you're zooming
+                            through loops and twists that make your
+                            stomach do somersaults. It's like a crazy dance party for your adrenaline, with
+                            unexpected drops that feel like falling
+                            !</p>
+                    </div>
+                    <div class='author-card mt-2'>
+                        <div class='com_india'>
+                            <img src="../img/rilix/emerson.png" alt="" class='author-pic mr-2'>
+                        </div>
+                        <div class='author foother w-100' style='display: flex; justify-content: space-between;'>
+                            <div class='com_india'>
+                                <p class='author-name mr-2'><strong>Emerson</strong> -Departamento de Ciencia e
+                                    Tecnologia <br>10/12/2024</p>
+                            </div>
+                            <div class='mt-3 mr-5'>
+
+                                <a class='text-primary' type="button" data-toggle="modal" data-target="#meuModal">
+                                    Continue
+                                    Reading <i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <!-- item
+                        
+                        annoucement 1 -->
+
+    </div>
+
+    <!-- Begin Page Content -->
+
+
+    <!-- Page Heading -->
+
+
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+    </div>
+    </div>
+
+    <!-- Modal -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>

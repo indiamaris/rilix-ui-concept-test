@@ -1,0 +1,117 @@
+
+/* .news-pic-something{ */
+    /* width: 100%; */
+
+/* } */
+ .author-pic{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(29, 82, 197);
+    border: 1px;
+    border-radius: 40px;
+ }
+
+  .author-picw{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(29, 82, 197);
+    border: 1px;
+    border-radius: 40px;
+ }
+
+.lix {
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 3rem;
+padding: 0;
+  aspect-ratio: 2/1;
+  width: 100%;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
+.lix:nth-child(odd) {
+  background-color: rgb(231, 232, 250);
+  color: rgb(90, 112, 221);
+}
+
+.lix:nth-child(even) {
+  background-color: rgb(231, 232, 250);
+  color: rgb(90, 112, 221);
+}
+
+.pepitas{
+    font-size: 20px ;
+color: grey;
+text-align: center;
+margin: 80px;
+}
+
+.larissa{
+    width: 100%;
+    padding: -40px;
+    margin: -90px;
+}
+
+.author-card{
+    padding: 1px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: left;
+    /* align-content: center; */
+}
+.com_india{
+    height: 60px;
+    /* background-color: aqua; */
+    display: flex;
+   
+}
+
+.cardi{
+ 
+    height: 200px; 
+    margin: 90px;
+
+
+}
+
+.bannerNextLevel{
+    /* background: aqua; */
+    height: 200px;
+    background-image: linear-gradient(
+    to bottom,
+    rgba(25, 0, 255, 0.5),
+    rgba(239, 242, 243, 0.466)
+  ), url('../img/rilix/ntFmJUZ8tw3ULD3tkBaAtf-1200-80.jpg');
+  
+  display:         flex;
+    display: -webkit-flex; /* Garante compatibilidade com navegador Safari. */
+background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+.mascara{
+     height: 200px;
+     width: 100%;
+;
+color: blue;
+font-size: 30px;
+text-align: center;
+/* align-items: center; */
+ /* justify-content: center; */
+ /* justify-items: center; */
+ align-content: center;
+
+}
+
+.fake-icon{
+    border: 1px;
+    border-radius:50%;
+}
+
+
+
