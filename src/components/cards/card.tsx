@@ -6,7 +6,7 @@ type CardProps = {
 } & PropsOf<"div">;
 export function Card({ children, color, ...props }: CardProps) {
     return (
-        <div {...propsWithClass(props, "card shadow h-100", `border-left-${color}`)}>
+        <div {...propsWithClass(props, "card shadow h-100 p-2", `border-left-${color}`)}>
             <div className="card-body">{children}</div>
         </div>
     );

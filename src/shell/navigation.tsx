@@ -1,4 +1,4 @@
-import { RoundButton } from "components/roundButton";
+import { RoundButton } from "src/components/btns/roundButton";
 import { Nav, NavItem } from "reactstrap";
 import { rilixIcon } from "./navigation.module.css";
 import { Link } from "react-router-dom";

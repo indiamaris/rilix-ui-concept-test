@@ -10,7 +10,7 @@ export function NavigationCard(props: NavigationCardProps) {
                 <strong>Coins are always on Sale</strong> The more you buy, the more discount you get! Visit our store
                 and shop like a profit pro!
             </p>
-            <a className="btn btn-success btn-sm" href="./pages/sale.html">
+            <a className="btn btn-success btn-sm text-white" href="./pages/sale.html">
                 Buy More, Pay Less!
             </a>
         </div>
