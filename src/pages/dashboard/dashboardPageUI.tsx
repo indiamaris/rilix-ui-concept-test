@@ -1,5 +1,7 @@
+import { spawn } from "child_process";
 import { BulletCard } from "src/components/cards/bulletCard";
 import { Widget } from "src/components/cards/widget";
+import { Header } from "src/components/header/header";
 import { formatCurrency } from "src/lib/formatters/currency";
 
 type DashboardPageUIProps = {
@@ -12,7 +14,11 @@ const topCardsGridClass = "g-col-lg-4 g-col-12";
 
 export function DashboardPageUI({ tickets, ticketsValue, ridesThisMonth }: DashboardPageUIProps) {
     return (
-        <div className="grid">
+
+        <>
+            <Header pageTitle="DashBoard"/>
+            <div className="grid">
+                
             <div className={topCardsGridClass}>
                 <BulletCard heading="Saldo tickets atual" icon="fa-clipboard-list">{`${tickets} Tickets`}</BulletCard>
             </div>
@@ -37,6 +43,6 @@ export function DashboardPageUI({ tickets, ticketsValue, ridesThisMonth }: Dashb
             <div className="g-col-lg-4 g-col-md-12">
                 <Widget heading="Top Hight and Low Active Licenses" minHeight="500px" />
             </div>
-        </div>
+        </div></>
     );
 }

@@ -24,7 +24,7 @@ export function Navigation() {
                 <Divider className="mb-0 mt-3" />
 
                 <NavItem>
-                    <Link className="nav-link" to="">
+                    <Link className="nav-link" to="/">
                         <i className="fas fa-fw fa-tachometer-alt"></i>
                         Dashboard
                     </Link>
@@ -34,23 +34,29 @@ export function Navigation() {
                 <div className="sidebar-heading">Mind your business</div>
 
                 <NavItem>
-                    <Link className="nav-link" to="">
+                    <Link className="nav-link" to="/licences">
                         <i className="fas fa-fw fa-id-card"></i>
-                        Licenses
+                        Licences
                     </Link>
                 </NavItem>
 
                 <NavItem>
-                    <Link className="nav-link" to="">
+                    <Link className="nav-link" to="coasters">
                         <i className="fas fa-fw fa-car-alt"></i>
                         Coasters
                     </Link>
                 </NavItem>
 
                 <NavItem>
-                    <Link className="nav-link" to="">
+                    <Link className="nav-link" to="wallet">
                         <i className="fas fa-fw fa-wallet"></i>
                         Wallet
+                    </Link>
+                </NavItem>
+                   <NavItem>
+                    <Link className="nav-link" to="me">
+                        <i className="fas fa-fw fa-rss"></i>
+                        Profile
                     </Link>
                 </NavItem>
 
@@ -59,14 +65,13 @@ export function Navigation() {
                 <div className="sidebar-heading">Invest in your business</div>
 
                 <NavItem>
-                    <Link className="nav-link" to="">
+                    <Link className="nav-link" to="store">
                         <i className="fas fa-fw fa-cart-plus"></i>
                         Store
                     </Link>
                 </NavItem>
-
-                <NavItem>
-                    <Link className="nav-link" to="">
+                    <NavItem>
+                    <Link className="nav-link" to="news">
                         <i className="fas fa-fw fa-rss"></i>
                         News
                     </Link>
