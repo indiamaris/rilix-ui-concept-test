@@ -1,0 +1,39 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a:hover {
+  color: rgb(34, 74, 190);
+  text-decoration: underline;
+}
+
+a {
+  color: rgb(78, 115, 223);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  flex-shrink: 0;
+  color: white;
+  height: 100hw;
+  min-height: 100vh;
+ background-color: #4e73df;
+    background-image: linear-gradient(-180deg,#4e73df 10%,#224abe 100%);
+    background-size: cover;
+}
+
+/* .bgGradientPrimary {
+
+    background-color: #4e73df;
+    background-image: linear-gradient(180deg,#4e73df 10%,#224abe 100%);
+    background-size: cover;
+} */
